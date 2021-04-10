@@ -1,6 +1,6 @@
 ---
 title: readme
-layout: template
+layout: hacker
 filename: README.md
 --- 
 # **obiordu.github.io**
