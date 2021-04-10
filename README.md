@@ -1,6 +1,6 @@
 ---
 title: readme
-layout: hacker
+layout: jekyll-theme-hacker
 filename: README.md
 --- 
 # **obiordu.github.io**
