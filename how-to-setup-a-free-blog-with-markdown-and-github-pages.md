@@ -20,7 +20,7 @@ filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
 
 
 
-> a. *Setting up a github account*
+> a. **Setting up a github account**
 
 Like with most things on this site, i will point in the right direction to documentation and only spell out areas where i believe i or anyone could be confused.
 
