@@ -8,11 +8,11 @@ filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
 
 *10-april-2021*
 
-&nbsp;
+<br />
 
 > Basic understanding of github/git and markdown is required
 
-&nbsp;
+<br />
 
 #### What are we going to cover:
 - Setting up a github account
@@ -21,8 +21,8 @@ filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
 - Setup a custom domain for your site if required
 - finito
 
-&nbsp;
-&nbsp;
+<br />
+<br />
 
 > A. 
 > *Setting up a github account*
@@ -30,15 +30,15 @@ Like with most things on this site, i will point in the right direction to docum
 
 The site can be found here @ [github][github]
 
-&nbsp;
-&nbsp;
+<br />
+<br />
 
 > B. 
 > *Activating github pages for organization account or organization project*
 The welcome page for github pages is very helpful and i dare say, playful. It can be found by clicking the link [github pages][githubpages]
 
-&nbsp;
-&nbsp;
+<br />
+<br />
 
 > C. 
 > *Use Themes and activate for all markdown (.md) files created*
