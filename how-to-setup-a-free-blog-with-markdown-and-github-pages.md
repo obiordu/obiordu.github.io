@@ -75,7 +75,8 @@ Where page-name.md is the name of the file; layout references the default.html f
 > *How to get started with Markdown*
 <br />
 
-It is possible to find the basic syntax for writing markdown [here][markdownguide]
+It is possible to find the basic syntax for writing markdown [here][markdownguide].
+
 I used the [Dillinger][dillinger] online markdown editor which is free to use and comes with useful examples.
 
 
