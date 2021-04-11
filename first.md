@@ -1,6 +1,6 @@
 ---
-title: readme
-layout: template
-filename: README.md
+title: first
+layout: default
+filename: first.md
 --- 
 # **obiordu.github.io**
