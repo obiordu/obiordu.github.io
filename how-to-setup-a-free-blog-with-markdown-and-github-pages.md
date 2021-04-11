@@ -3,7 +3,7 @@ title: how-to-setup-a-free-blog-with-markdown-and-github-pages
 layout: default
 filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
 --- 
-# How to setup your blog using only github Pages
+# How to setup your blog using only Github Pages and Markdown
 *admin*
 
 *10-april-2021*
