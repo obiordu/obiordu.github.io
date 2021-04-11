@@ -51,22 +51,23 @@ This is the part that i had issues with setting up on the github repo/project/si
 To render the chosen themes template to all .md or .html in the repo will require creating one additional file for your project and applying five lines at the beginning of every .md or .html file.
 <br />
 
-I chose to use the theme and a quick google search showed the themes code is hosted on github here.
+I chose to use the theme: jekyll-theme-hacker and a quick google search showed the theme's code is hosted on github [here][hacker-theme].
 From the themes code repo copy the default.html file in _layout/ folder and create the _layout/ folder in your repo and paste the copied default.html file there.
 <br />
 
 Add these lines to the top of each markdown/html page/file
 
----
-title: title to show in broswer
-layout: default
-filename: page-name.md
---- 
+*---*
+*title: title to show in broswer*
+*layout: default*
+*filename: page-name.md*
+*--- *
 
-where page-name.md is the name of the file; layout references the default.html file created earlier; and title shows the title in the browser window opening the page.
+Where page-name.md is the name of the file; layout references the default.html file created earlier; and title shows the title in the browser window opening the page.
 
 
 
 
 [githubpages]: <https://pages.github.com/>
 [github]: <https://github.com/>
+[hacker-theme]: <https://github.com/pages-themes/hacker>
