@@ -35,3 +35,6 @@ The welcome page for github pages is very helpful and i dare say, playful. It ca
 #
 ##### 3. Use Themes and activate for all markdown (.md) files created
 #
+
+[githubpages]: <https://pages.github.com/>
+[github]: <https://github.com/>
