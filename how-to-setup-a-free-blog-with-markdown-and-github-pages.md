@@ -57,11 +57,13 @@ From the themes code repo copy the default.html file in _layout/ folder and crea
 
 Add these lines to the top of each markdown/html page/file
 
-*---*
-*title: title to show in broswer*
-*layout: default*
-*filename: page-name.md*
-*--- *
+```sh
+---
+title: title to show in broswer
+layout: default
+filename: page-name.md
+---
+```
 
 Where page-name.md is the name of the file; layout references the default.html file created earlier; and title shows the title in the browser window opening the page.
 
