@@ -8,10 +8,10 @@ filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
 *10-april-2021*
 #
 > Basic understanding of github/git and markdown is required
-#
-#
-#
-#
+
+
+
+
 #### What are we going to cover:
 - Setting up a github account
 - Activating github pages for organization account or organization project
