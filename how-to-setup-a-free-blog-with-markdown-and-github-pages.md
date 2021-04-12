@@ -79,6 +79,13 @@ It is possible to find the basic syntax for writing markdown [here][markdownguid
 
 I used the [Dillinger][dillinger] online markdown editor which is free to use and comes with useful examples.
 
+<br />
+<br />
+
+> E. 
+> *Setup a custom domain for your site if required*
+<br />
+
 
 [dillinger]: <https://dillinger.io/>
 [markdownguide]: <https://www.markdownguide.org/basic-syntax/>
