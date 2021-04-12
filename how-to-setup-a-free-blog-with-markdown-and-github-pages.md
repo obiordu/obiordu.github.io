@@ -49,8 +49,20 @@ The welcome page for github pages is very helpful and i dare say, playful. It ca
 > *Use Themes and activate for all markdown (.md) files created*
 <br />
 
+Modify your themes file "_config.yml" to edit the title and description for all your pages like below:
+<br />
+
+```sh
+title: Scratch Blog
+description: Space dedicated to random hacks.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-hacker
+```
+
 By default, an activated theme will only work for either of the README.md or index.md or index.html files.
 This is the part that i had issues with setting up on the github repo/project/site.
+
 To render the chosen themes template to all .md or .html in the repo will require creating one additional file for your project and applying five lines at the beginning of every .md or .html file.
 <br />
 
