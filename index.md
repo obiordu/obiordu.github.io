@@ -1,5 +1,5 @@
 
-# This is a place to keep my random tech **pains!**
+# This is a place to keep random **stuff!**
 
 Best place to find anything is still using your browser and [search engine][googlelink]
 
