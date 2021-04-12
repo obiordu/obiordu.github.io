@@ -3,8 +3,8 @@ title: "how to setup a free blog with markdown and github pages"
 layout: default
 filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
 tags: ["blog", "markdown", "github", "pages", "free"]
+---
 
---- 
 # How to setup your blog using only Github Pages and Markdown
 *admin*
 
@@ -12,7 +12,7 @@ tags: ["blog", "markdown", "github", "pages", "free"]
 
 <br />
 
-> Basic understanding of github/git and markdown is required
+> Basic understanding of github/git and markdown is required.
 
 <br />
 
@@ -31,7 +31,8 @@ tags: ["blog", "markdown", "github", "pages", "free"]
 <br />
 
 Like with most things on this site, i will point in the right direction to documentation and only spell out areas where i believe i or anyone could be confused.
-The site can be found here @ [github][github]
+
+The site can be found here @ [github][github].
 
 <br />
 <br />
@@ -40,7 +41,9 @@ The site can be found here @ [github][github]
 > *Activating github pages for organization account or organization project*
 <br />
 
-The welcome page for github pages is very helpful and i dare say, playful. It can be found by clicking the link [github pages][githubpages]
+The welcome page for github pages is very helpful and i dare say, playful.
+
+It can be found by clicking the link [github pages][githubpages].
 
 <br />
 <br />
@@ -70,7 +73,7 @@ I chose to use the theme: jekyll-theme-hacker and a quick google search showed t
 From the themes code repo copy the default.html file in _layout/ folder and create the _layout/ folder in your repo and paste the copied default.html file there.
 <br />
 
-Add these lines to the top of each markdown/html page/file
+Add these lines to the top of each markdown/html page/file:
 
 ```sh
 ---
