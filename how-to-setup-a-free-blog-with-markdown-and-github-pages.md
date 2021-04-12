@@ -1,7 +1,9 @@
 ---
-title: how-to-setup-a-free-blog-with-markdown-and-github-pages
+title: "how to setup a free blog with markdown and github pages"
 layout: default
 filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
+tags: ["blog", "markdown", "github", "pages", "free"]
+
 --- 
 # How to setup your blog using only Github Pages and Markdown
 *admin*
@@ -60,9 +62,10 @@ Add these lines to the top of each markdown/html page/file
 
 ```sh
 ---
-title: title to show in broswer
+title: "title to show in broswer"
 layout: default
 filename: page-name.md
+tags: ["blog", "markdown"]
 ---
 ```
 
