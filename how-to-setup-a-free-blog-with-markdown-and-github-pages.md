@@ -49,7 +49,7 @@ It can be found by clicking the link [github pages][githubpages].
 <br />
 
 > C. 
-> *Use Themes and activate for all markdown (.md) files created*
+> *Use a Theme and activate for all markdown (.md) files created*
 <br />
 
 Modify your themes file "_config.yml" to edit the title and description for all your pages like below:
@@ -64,9 +64,9 @@ theme: jekyll-theme-hacker
 ```
 
 By default, an activated theme will only work for either of the README.md or index.md or index.html files.
-This is the part that i had issues with setting up on the github repo/project/site.
+This is the part that i had issues with setting up on the github pages/site.
 
-To render the chosen themes template to all .md or .html in the repo will require creating one additional file for your project and applying six lines at the beginning of every .md or .html file.
+To render the chosen theme's template to all .md or .html in the repo will require creating one additional file for your project and applying six lines at the beginning of every .md or .html file.
 <br />
 
 I chose to use the theme: jekyll-theme-hacker and a quick google search showed the theme's code is hosted on github [here][hacker-theme].
