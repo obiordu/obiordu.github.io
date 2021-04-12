@@ -73,7 +73,7 @@ I chose to use the theme: jekyll-theme-hacker and a quick google search showed t
 From the themes code repo copy the default.html file in _layout/ folder and create the _layout/ folder in your repo and paste the copied default.html file there.
 <br />
 
-Add these lines to the top of each markdown/html page/file:
+Add these lines to the top of each markdown(.md) page/file:
 
 ```sh
 ---
