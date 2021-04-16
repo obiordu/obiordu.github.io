@@ -1,7 +1,5 @@
 
-# This is a place to keep random **stuff!**
-
-Best place to find anything is still using your browser and [search engine][googlelink]
+Best place to find anything is still using your browser and [search engine][searchlink]
 
 The idea is a blog that goes straight to the point about difficult to understand configurations and setups.
 
@@ -9,4 +7,4 @@ The idea is a blog that goes straight to the point about difficult to understand
 
 - [How to setup a free blog with markdown and github pages](https://obiordu.github.io/how-to-setup-a-free-blog-with-markdown-and-github-pages)
 
-[googlelink]: <https://google.com>
+[searchlink]: <https://duckduckgo.com/>
