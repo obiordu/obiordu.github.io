@@ -111,4 +111,4 @@ Visit my [technical blog](/blog) for guides and insights.
 
 - Email: [oordu@obwebdev.net](mailto:oordu@obwebdev.net)
 - LinkedIn: [Ordu Obi](https://www.linkedin.com/in/oscarordu/)
-- GitHub: [obiordu](https://github.com/obiordu)
+- GitHub: [obiordu](https://github.com/obiordu) or [obiordu.github.io](https://obiordu.github.io)
