@@ -8,16 +8,15 @@ description: Engineer | Cloud Infrastructure,Kubernetes & DevOps Expert
 
 ---
 
-### About Me
 Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps expertise. Proven track record in designing and implementing enterprise-scale cloud-native solutions, specializing in Kubernetes orchestration, security architecture, and infrastructure automation.
 
 ---
+
 
 ### Experience
 
 ## Systems Reliability Engineer
 *June 2019 - Present*
-
 Key Achievements:
 - Architected multi-region Kubernetes platform supporting 200+ microservices with 99.99% uptime
 - Implemented zero-trust security architecture and service mesh reducing security incidents by 75%
@@ -28,7 +27,6 @@ Key Achievements:
 
 ## DevOps Engineer
 *September 2018 - March 2019*
-
 Key Achievements:
 - Led migration of 50+ applications to containerized microservices using Kubernetes and Docker
 - Implemented infrastructure as code managing 500+ cloud resources with Terraform
@@ -42,11 +40,13 @@ Key Achievements:
 
 ---
 
+
 ### Education
 - MSc Information Technology - National Open University of Nigeria, 2016
 - BEng Electrical and Electronics Engineering - Federal University of Technology Owerri, 2006
 
 ---
+
 
 ### Professional Certifications
 
@@ -63,6 +63,7 @@ Key Achievements:
   - Focus: Network security, compliance, and operational security
 
 ---
+
 
 ### Areas of Expertise
 
@@ -92,6 +93,7 @@ Key Achievements:
 
 ---
 
+
 ### Projects
 
 View my [detailed portfolio](/projects) featuring:
@@ -104,12 +106,14 @@ View my [detailed portfolio](/projects) featuring:
 
 ---
 
+
 ### Blog
 
 I write about cloud infrastructure, DevOps practices, and system architecture. 
 Visit my [technical blog](/blog) for guides and insights.
 
 ---
+
 
 ### Contact {#contact}
 
