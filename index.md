@@ -111,7 +111,7 @@ Visit my [technical blog](/blog) for guides and insights.
 
 ---
 
-### Contact {##contact}
+### Contact {#contact}
 
 - Email: [oordu@obwebdev.net](mailto:oordu@obwebdev.net)
 - LinkedIn: [Ordu Obi](https://www.linkedin.com/in/oscarordu/)
