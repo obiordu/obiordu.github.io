@@ -1,10 +1,10 @@
 # Ordu Obi
-## Senior Systems Reliability Engineer | Cloud Infrastructure & DevOps Expert
+## Systems Reliability Engineer | Cloud Infrastructure & DevOps Expert
 
 [Home](/) | [Blog](/blog) | [Projects](/projects) | [Contact](#contact)
 
 ## About Me
-Senior Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps expertise. Proven track record in designing and implementing enterprise-scale cloud-native solutions, specializing in Kubernetes orchestration, security architecture, and infrastructure automation.
+Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps expertise. Proven track record in designing and implementing enterprise-scale cloud-native solutions, specializing in Kubernetes orchestration, security architecture, and infrastructure automation.
 
 ## Experience
 
