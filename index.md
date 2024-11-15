@@ -72,7 +72,7 @@ View more projects and technical details in my [portfolio](/projects) or on [Git
 - **Monitoring & Observability:** Enterprise-scale monitoring, alerting, and dashboards
 
 ## Blog
-Check out my latest thoughts and tutorials on my [blog page](/blog).
+I write about cloud infrastructure, DevOps practices, and system architecture. Check out my [technical blog](/blog) for guides and insights.
 
 ## Contact {#contact}
 - Email: [oordu@obwebdev.net](mailto:oordu@obwebdev.net)
