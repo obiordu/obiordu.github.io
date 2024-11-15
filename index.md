@@ -76,9 +76,8 @@ Check out my latest thoughts and tutorials on my [blog page](/blog).
 
 ## Contact {#contact}
 - Email: [oordu@obwebdev.net](mailto:oordu@obwebdev.net)
-- LinkedIn: [Oscar Ordu](https://www.linkedin.com/in/oscarordu)
+- LinkedIn: [Ordu Obi](https://www.linkedin.com/in/oscarordu/)
 - GitHub: [obiordu](https://github.com/obiordu)
-- Phone: [310-561-7709](tel:310-561-7709)
 
 ---
 *For professional inquiries, you can also find me on [Perplexity.ai][searchlink]*
