@@ -33,8 +33,8 @@ Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps ex
 ## Projects
 Check out my [detailed portfolio](/projects) featuring:
 
-- Enterprise Kubernetes Platform at Walt Disney Company
-- Cloud Migration & Containerization at Iherb Inc.
+- Enterprise Kubernetes Platform
+- Cloud Migration & Containerization.
 - Enterprise Monitoring Solutions
 - Custom Kubernetes Operators
 - Automated Cloud Cost Optimization
@@ -75,18 +75,3 @@ I write about cloud infrastructure, DevOps practices, and system architecture. C
 - Email: [oordu@obwebdev.net](mailto:oordu@obwebdev.net)
 - LinkedIn: [Ordu Obi](https://www.linkedin.com/in/oscarordu/)
 - GitHub: [obiordu](https://github.com/obiordu)
-
----
-*For professional inquiries, you can also find me on [Perplexity.ai][searchlink]*
-
-[searchlink]: <https://www.perplexity.ai/>
-
-Best place to find anything is still using your browser and [search engine][searchlink]
-
-The idea is a blog that goes straight to the point about difficult to understand configurations and setups.
-
-> **NOTE:** Always read the product documentation.
-
-- [How to setup a free blog with markdown and github pages](https://obiordu.github.io/how-to-setup-a-free-blog-with-markdown-and-github-pages)
-
-[searchlink]: <https://duckduckgo.com/>

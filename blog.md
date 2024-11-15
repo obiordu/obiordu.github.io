@@ -66,3 +66,18 @@ This blog goes straight to the point about difficult-to-understand configuration
 *Subscribe functionality coming soon - Follow me on [LinkedIn](https://www.linkedin.com/in/oscarordu/) for updates*
 
 > The best place to find anything is using your browser and [Perplexity.ai](https://www.perplexity.ai/)
+
+---
+*For professional inquiries, you can also find me on [Perplexity.ai][searchlink]*
+
+[searchlink]: <https://www.perplexity.ai/>
+
+Best place to find anything is still using your browser and [search engine][searchlink]
+
+The idea is a blog that goes straight to the point about difficult to understand configurations and setups.
+
+> **NOTE:** Always read the product documentation.
+
+- [How to setup a free blog with markdown and github pages](https://obiordu.github.io/how-to-setup-a-free-blog-with-markdown-and-github-pages)
+
+[searchlink]: <https://duckduckgo.com/>
