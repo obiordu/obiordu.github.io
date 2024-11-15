@@ -1,6 +1,3 @@
-# Ordu Obi
-## Systems Reliability Engineer | Cloud Infrastructure & DevOps Expert
-
 [Home](/) | [Blog](/blog) | [Projects](/projects) | [Contact](#contact)
 
 ## About Me
@@ -8,7 +5,7 @@ Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps ex
 
 ## Experience
 
-### Systems Reliability Engineer | Walt Disney Company
+### Systems Reliability Engineer
 *June 2019 - Present*
 - Architected multi-region Kubernetes platform supporting 200+ microservices with 99.99% uptime
 - Implemented zero-trust security architecture and service mesh reducing security incidents by 75%
