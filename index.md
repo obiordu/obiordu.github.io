@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: Systems Reliability Engineer | Cloud Infrastructure & DevOps Expert
+description: Engineer | Cloud Infrastructure,Kubernetes & DevOps Expert
 ---
 
 [Home](/) | [Projects](/projects) | [Blog](/blog) | [About](/about) | [Contact](#contact)
@@ -9,7 +9,6 @@ description: Systems Reliability Engineer | Cloud Infrastructure & DevOps Expert
 ---
 
 ### About Me
-
 Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps expertise. Proven track record in designing and implementing enterprise-scale cloud-native solutions, specializing in Kubernetes orchestration, security architecture, and infrastructure automation.
 
 ---
@@ -18,6 +17,7 @@ Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps ex
 
 ## Systems Reliability Engineer
 *June 2019 - Present*
+
 Key Achievements:
 - Architected multi-region Kubernetes platform supporting 200+ microservices with 99.99% uptime
 - Implemented zero-trust security architecture and service mesh reducing security incidents by 75%
@@ -28,6 +28,7 @@ Key Achievements:
 
 ## DevOps Engineer
 *September 2018 - March 2019*
+
 Key Achievements:
 - Led migration of 50+ applications to containerized microservices using Kubernetes and Docker
 - Implemented infrastructure as code managing 500+ cloud resources with Terraform
@@ -37,12 +38,11 @@ Key Achievements:
 ## Previous Roles
 - Field Service Technician at Apex Systems (2016-2017)
 - IT Support Engineer at Fidelity Bank Plc (2012-2014)
-- Relationship/Accounts Manager at Fidelity Bank Plc (2007-2012)
+- Banker at Fidelity Bank Plc (2007-2012)
 
 ---
 
 ### Education
-
 - MSc Information Technology - National Open University of Nigeria, 2016
 - BEng Electrical and Electronics Engineering - Federal University of Technology Owerri, 2006
 
