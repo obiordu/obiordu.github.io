@@ -1,3 +1,9 @@
+---
+layout: default
+title: About
+description: About This Blog - Cloud Infrastructure & DevOps
+---
+
 # About
 
 ---

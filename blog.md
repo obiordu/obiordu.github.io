@@ -1,3 +1,9 @@
+---
+layout: default
+title: Blog
+description: Technical Blog - Cloud Infrastructure & DevOps
+---
+
 # Technical Blog
 
 ---

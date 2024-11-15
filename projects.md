@@ -1,3 +1,9 @@
+---
+layout: default
+title: Projects
+description: Portfolio of Cloud Infrastructure & DevOps Projects
+---
+
 # Projects
 
 ---

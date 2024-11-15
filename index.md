@@ -1,4 +1,8 @@
 ---
+layout: default
+title: Home
+description: Systems Reliability Engineer | Cloud Infrastructure & DevOps Expert
+---
 
 [Home](/) | [Projects](/projects) | [Blog](/blog) | [About](/about) | [Contact](#contact)
 
