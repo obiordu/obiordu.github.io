@@ -2,7 +2,7 @@
 
 ---
 
-[Home](/) | [Projects](/projects) | [Blog](/blog) | [Contact](/#contact)
+[Home](/) | [Projects](/projects) | [Blog](/blog) | [About](/about) | [Contact](/#contact)
 
 ---
 
