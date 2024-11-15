@@ -6,6 +6,7 @@ description: Engineer | Cloud Infrastructure, Kubernetes & DevOps Expert
 
 [Home](/) | [Projects](/projects) | [Blog](/blog) | [About](/about) | [Contact](#contact)
 
+
 ---
 
 Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps expertise. Proven track record in designing and implementing enterprise-scale cloud-native solutions, specializing in Kubernetes orchestration, security architecture, and infrastructure automation.
@@ -20,10 +21,17 @@ Systems Reliability Engineer with 8+ years of cloud infrastructure and DevOps ex
 Key Achievements:
 - Architected multi-region Kubernetes platform supporting 200+ microservices with 99.99% uptime
 - Implemented zero-trust security architecture and service mesh reducing security incidents by 75%
-- Automated cloud infrastructure provisioning using Terraform and Ansible
-- Built enterprise-wide monitoring platform using Prometheus and Grafana
 - Established GitOps workflows and CI/CD pipelines processing 500+ deployments weekly
 - Implemented cloud cost optimization strategies saving $1M+ annually
+- Automated cloud infrastructure provisioning using Terraform and Ansible, reducing deployment time by 90%
+- Built enterprise-wide monitoring platform using Prometheus and Grafana for 1000+ infrastructure components
+- Designed disaster recovery procedures achieving 5-minute RPO and 15-minute RTO
+- Developed custom Kubernetes operators for automated application lifecycle management
+- Led implementation of container security policies reducing vulnerabilities by 80%
+- Created self-service platform reducing team onboarding time from weeks to days
+- Implemented automated canary deployments reducing production incidents by 60%
+- Designed and maintained high-availability database clusters with 99.999% uptime
+
 
 ## DevOps Engineer
 *September 2018 - March 2019*
@@ -32,6 +40,12 @@ Key Achievements:
 - Implemented infrastructure as code managing 500+ cloud resources with Terraform
 - Designed CI/CD pipelines achieving 300% increase in deployment frequency
 - Architected cloud storage solutions managing 50TB+ of data with 99.99% durability
+- Implemented automated security scanning and compliance controls for SOC2 certification
+- Developed automated database backup and recovery procedures with 15-minute RTO
+- Created custom monitoring dashboards reducing MTTR by 50%
+- Implemented role-based access control (RBAC) improving security posture
+- Automated certificate management and rotation using cert-manager
+- Designed and implemented multi-region data replication strategy
 
 ## Previous Roles
 - Field Service Technician at Apex Systems (2016-2017)
