@@ -89,14 +89,6 @@ Step-by-step guide to implementing GitOps practices using ArgoCD. Learn about co
 
 ---
 
-## About This Blog
-
-This blog goes straight to the point about difficult-to-understand configurations and setups in cloud infrastructure, DevOps practices, and system architecture. Each post includes practical examples, code snippets, and real-world scenarios from enterprise implementations.
-
-> **NOTE:** Always read the product documentation.
-
----
-
 ## Stay Updated
 
 - Follow me on [LinkedIn](https://www.linkedin.com/in/oscarordu/) for updates
