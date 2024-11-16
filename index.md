@@ -4,12 +4,10 @@ title: Home
 description: Engineer | Cloud Infrastructure, Kubernetes & DevOps Expert
 ---
 
-[Home](/) | [Projects](/projects) | [Blog](/blog) | [About](/about) | [Contact](#contact)
-
 
 ---
 
-Systems and Software Reliability Engineer with 8+ years of cloud infrastructure and DevOps expertise. Track record OF designing and implementing enterprise-scale cloud-native solutions, specializing in Kubernetes orchestration, security architecture and infrastructure automation.
+Systems and Software Reliability Engineer with 8+ years of cloud infrastructure and DevOps expertise. Track record of designing and implementing enterprise-scale cloud-native solutions, specializing in Kubernetes orchestration, security architecture and infrastructure automation.
 
 ---
 
@@ -18,6 +16,7 @@ Systems and Software Reliability Engineer with 8+ years of cloud infrastructure 
 
 ## Systems Reliability Engineer
 *June 2019 - Present*
+
 Key Achievements:
 - Architected multi-region Kubernetes platform supporting 200+ microservices with 99.99% uptime
 - Implemented zero-trust security architecture and service mesh reducing security incidents by 75%
@@ -35,6 +34,7 @@ Key Achievements:
 
 ## DevOps Engineer
 *September 2018 - March 2019*
+
 Key Achievements:
 - Led migration of 50+ applications to containerized microservices using Kubernetes and Docker
 - Implemented infrastructure as code managing 500+ cloud resources with Terraform
