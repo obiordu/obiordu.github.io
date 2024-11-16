@@ -23,11 +23,27 @@ body {
 .page-header {
   background-color: #161b22;
   background-image: linear-gradient(120deg, #1a2536, #161b22);
-  padding: 4rem 6rem;  /* Increased padding */
-  margin-bottom: 2rem;
-  border-radius: 8px 8px 0 0;
+  padding: 4rem 2rem;
+  text-align: center;  /* Center the header content */
   border-bottom: 1px solid #30363d;
-  text-align: left;  /* Left align for better readability */
+  margin: 0;  /* Remove margin to stick to top */
+  border-radius: 0;  /* Remove border radius for full-width header */
+}
+
+.project-name {
+  color: #ffffff;
+  font-size: 3.5rem;  /* Slightly larger */
+  font-weight: 600;
+  margin: 0 0 1rem 0;  /* Clean up margins */
+  text-align: center;
+}
+
+.project-tagline {
+  color: #2188ff;  /* GitHub blue */
+  font-size: 1.8rem;  /* Slightly larger */
+  opacity: 1;
+  margin: 0;  /* Clean up margins */
+  text-align: center;
 }
 
 .main-content {
@@ -82,20 +98,6 @@ a {
     color: #79c0ff;  /* Lighter blue on hover */
     text-decoration: none;
   }
-}
-
-.project-name {
-  color: #ffffff;
-  font-size: 3rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-}
-
-.project-tagline {
-  color: #2188ff;  /* GitHub blue */
-  font-size: 1.5rem;
-  opacity: 1;
-  margin-top: 1rem;
 }
 
 code {
