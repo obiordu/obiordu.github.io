@@ -5,29 +5,30 @@
 
 /* Dark theme overrides */
 body {
-  background-color: #0d1117;  /* GitHub dark mode background */
-  color: #f0f6fc;  /* Bright, clear text */
+  background-color: #0d1117;
+  color: #f0f6fc;
   min-height: 100vh;
+  margin: 0;  /* Remove default body margin */
+  padding: 0;  /* Remove default body padding */
 }
 
-/* Main container with border */
 .container-lg {
   max-width: 1200px;
-  margin: 3rem auto;
-  background: #161b22;  /* Slightly lighter than background */
-  border: 1px solid #30363d;
-  border-radius: 8px;
-  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+  margin: 0 auto;  /* Remove top margin */
+  background: #161b22;
+  border: none;  /* Remove container border */
+  border-radius: 0;  /* Remove border radius */
+  box-shadow: none;  /* Remove shadow */
 }
 
 .page-header {
   background-color: #161b22;
   background-image: linear-gradient(120deg, #1a2536, #161b22);
-  padding: 4rem 2rem;
-  text-align: center;  /* Center the header content */
-  border-bottom: 1px solid #30363d;
-  margin: 0;  /* Remove margin to stick to top */
-  border-radius: 0;  /* Remove border radius for full-width header */
+  padding: 3rem 2rem;  /* Reduced top padding */
+  text-align: center;
+  border: none;  /* Remove all borders */
+  margin: 0;
+  border-radius: 0;
 }
 
 .project-name {
