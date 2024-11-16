@@ -5,55 +5,68 @@
 
 /* Dark theme overrides */
 body {
-  background-color: #1a1a1a;
-  color: #c8c8c8;  /* Softer than pure white for better readability */
+  background-color: #0d1117;  /* GitHub dark mode background */
+  color: #f0f6fc;  /* Bright, clear text */
   min-height: 100vh;
 }
 
 /* Main container with border */
 .container-lg {
-  max-width: 1012px;
-  margin: 2rem auto;
-  background: #242424;
-  border: 1px solid #333;
+  max-width: 1200px;
+  margin: 3rem auto;
+  background: #161b22;  /* Slightly lighter than background */
+  border: 1px solid #30363d;
   border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
 }
 
 .page-header {
-  background-color: #2b2b2b;
-  background-image: linear-gradient(120deg, #2d3436, #2b2b2b);
-  padding: 3rem;
+  background-color: #161b22;
+  background-image: linear-gradient(120deg, #1a2536, #161b22);
+  padding: 4rem 6rem;  /* Increased padding */
+  margin-bottom: 2rem;
   border-radius: 8px 8px 0 0;
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #30363d;
+  text-align: left;  /* Left align for better readability */
 }
 
 .main-content {
   h1 {
-    color: #e4e4e4;
-    border-bottom: 1px solid #333;
+    color: #ffffff;  /* Pure white for main headers */
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #2188ff;  /* GitHub blue */
     padding-bottom: 0.8rem;
   }
   
   h2 {
-    color: #64b5f6;  /* Light blue for secondary headers */
-    margin-top: 2.5rem;
+    color: #2188ff;  /* GitHub blue */
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
   }
   
   h3 {
-    color: #bb86fc;  /* Purple accent for tertiary headers */
+    color: #79c0ff;  /* Lighter blue */
+    font-size: 1.4rem;
+    margin-top: 2rem;
   }
   
   h4, h5, h6 {
-    color: #e4e4e4;
+    color: #ffffff;
   }
   
   /* Better content padding */
-  max-width: 900px;
-  padding: 3rem 4rem;
+  max-width: 1000px;
+  padding: 3rem 6rem;
   margin: 0 auto;
   font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.8;
+  
+  p {
+    color: #f0f6fc;  /* Bright, clear text */
+    margin-bottom: 1.2rem;
+  }
   
   @media screen and (max-width: 42em) {
     padding: 2rem;
@@ -61,102 +74,120 @@ body {
 }
 
 a {
-  color: #64b5f6;  /* Light blue for links */
+  color: #2188ff;  /* GitHub blue */
   transition: color 0.2s ease;
+  font-weight: 500;
   
   &:hover {
-    color: #90caf9;  /* Lighter blue on hover */
+    color: #79c0ff;  /* Lighter blue on hover */
     text-decoration: none;
   }
 }
 
 .project-name {
   color: #ffffff;
+  font-size: 3rem;
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .project-tagline {
-  color: #90caf9;  /* Light blue for tagline */
-  opacity: 0.9;
+  color: #2188ff;  /* GitHub blue */
+  font-size: 1.5rem;
+  opacity: 1;
+  margin-top: 1rem;
 }
 
 code {
-  background-color: #2b2b2b;
-  color: #bb86fc;  /* Purple for code */
+  background-color: #1f2428;  /* Slightly lighter than container */
+  color: #2188ff;  /* GitHub blue */
   padding: 0.2em 0.4em;
   border-radius: 3px;
+  font-size: 0.9em;
 }
 
 pre {
-  background-color: #2b2b2b;
-  border: 1px solid #333;
+  background-color: #1f2428;
+  border: 1px solid #30363d;
   padding: 1rem;
-  border-radius: 4px;
+  border-radius: 6px;
+  margin: 1.5rem 0;
 }
 
 hr {
-  background-color: #333;
-  margin: 2.5rem 0;
+  height: 2px;
+  background-color: #30363d;
+  margin: 3rem 0;
 }
 
 table {
-  border: 1px solid #333;
-  border-radius: 4px;
+  border: 1px solid #30363d;
+  border-radius: 6px;
   border-spacing: 0;
+  width: 100%;
+  margin: 2rem 0;
   
   th, td {
-    border: 1px solid #333;
-    padding: 0.8rem;
+    border: 1px solid #30363d;
+    padding: 1rem;
   }
   
   th {
-    background-color: #2b2b2b;
-    color: #90caf9;  /* Light blue for table headers */
+    background-color: #1f2428;
+    color: #2188ff;  /* GitHub blue */
+    font-weight: 600;
   }
   
   tr:nth-child(even) {
-    background-color: #2b2b2b;
+    background-color: #1f2428;
   }
 }
 
 /* Navigation styling */
 nav {
-  background-color: #2b2b2b;
+  background-color: #161b22;
   margin: 0;
-  padding: 1.5rem 0;
-  text-align: center;
-  border-bottom: 1px solid #333;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem 6rem;  /* Match header padding */
+  text-align: left;  /* Left align like header */
+  border-bottom: 1px solid #30363d;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   
   a {
     display: inline-block;
-    margin: 0 25px;
-    padding: 8px 16px;
+    margin-right: 2rem;  /* Space between links */
+    padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 4px;
-    transition: all 0.3s ease;
-    color: #90caf9;  /* Light blue for nav links */
+    transition: all 0.2s ease;
+    color: #2188ff;  /* GitHub blue */
+    font-weight: 500;
     
     &:hover {
-      background-color: rgba(144, 202, 249, 0.1);  /* Light blue with opacity */
+      background-color: rgba(33, 136, 255, 0.1);  /* GitHub blue with opacity */
       transform: translateY(-1px);
-      color: #fff;
+      color: #ffffff;
+    }
+    
+    &:last-child {
+      margin-right: 0;
     }
   }
   
   @media screen and (max-width: 42em) {
+    padding: 1rem 2rem;
+    
     a {
-      margin: 0 10px;
-      padding: 6px 12px;
+      margin: 0 0.5rem;
+      padding: 0.4rem 0.8rem;
     }
   }
 }
 
 /* Add subtle border to sections */
 section {
-  margin: 2rem 0;
-  padding: 2rem;
-  border: 1px solid #333;
+  margin: 3rem 0;
+  padding: 2.5rem;
+  border: 1px solid #30363d;
   border-radius: 8px;
-  background: #242424;
+  background: #161b22;
 }
