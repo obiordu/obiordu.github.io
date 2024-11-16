@@ -1,5 +1,12 @@
 title: Ordu Obi
 description: Engineer | Cloud, Kubernetes & DevOps Expert
-show_downloads:
-google_analytics:
-theme: jekyll-theme-hacker
+show_downloads: false
+theme: jekyll-theme-cayman
+
+# Dark theme customization
+github:
+  is_project_page: false
+
+# Custom CSS overrides
+sass:
+  style: compressed
