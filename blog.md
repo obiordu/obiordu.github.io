@@ -1,14 +1,10 @@
 ---
 layout: default
 title: Blog
-description: Technical Blog - Cloud Infrastructure & DevOps
+description: Cloud Infrastructure & DevOps Blog
 ---
 
 # Technical Blog
-
----
-
-[Home](/) | [Projects](/projects) | [Blog](/blog) | [About](/about) | [Contact](/#contact)
 
 ---
 

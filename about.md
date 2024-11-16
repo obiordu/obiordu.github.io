@@ -1,16 +1,10 @@
 ---
 layout: default
 title: About
-description: About This Blog - Cloud Infrastructure & DevOps
+description: About Me - Cloud Infrastructure & DevOps Engineer
 ---
 
 # About
-
----
-
-[Home](/) | [Projects](/projects) | [Blog](/blog) | [About](/about) | [Contact](/#contact)
-
----
 
 ## About This Blog
 

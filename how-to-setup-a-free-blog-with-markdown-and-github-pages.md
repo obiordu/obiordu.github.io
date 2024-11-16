@@ -1,8 +1,7 @@
 ---
-title: "how to setup a free blog with markdown and github pages"
 layout: default
-filename: how-to-setup-a-free-blog-with-markdown-and-github-pages.md
-tags: ["blog", "markdown", "github", "pages", "free"]
+title: How to Setup a Free Blog with Markdown and GitHub Pages
+description: A step-by-step guide to creating a blog using Markdown and GitHub Pages
 ---
 
 # How to setup your blog using only Github Pages and Markdown
