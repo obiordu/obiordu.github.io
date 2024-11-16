@@ -25,12 +25,16 @@ body {
 
 .page-header {
   margin: 0 !important;
-  padding: 1rem 2rem !important;
+  padding: 1.5rem 2rem !important;
   background-color: #161b22 !important;
   background-image: none !important;
   border-bottom: 1px solid #30363d !important;
-  border-radius: 0 8px 0 0 !important;
-  text-align: center;
+  text-align: center !important;  /* Force center alignment */
+  width: 100% !important;  /* Ensure full width */
+  display: flex !important;  /* Use flexbox for centering */
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .project-name {
@@ -40,6 +44,8 @@ body {
   font-size: 3.5rem !important;
   font-weight: 600;
   line-height: 1.2 !important;
+  text-align: center !important;
+  width: 100% !important;
 }
 
 .project-tagline {
@@ -48,6 +54,8 @@ body {
   color: #2188ff;
   font-size: 1.8rem !important;
   line-height: 1.2 !important;
+  text-align: center !important;
+  width: 100% !important;
 }
 
 /* Navigation with subtle border */
