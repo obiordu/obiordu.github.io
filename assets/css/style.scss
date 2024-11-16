@@ -3,38 +3,34 @@
 
 @import "{{ site.theme }}";
 
-/* Reset all default spacing */
-* {
+/* Base styles */
+body {
   margin: 0 !important;
   padding: 0 !important;
-  box-sizing: border-box;
-}
-
-/* Dark theme overrides */
-body {
   background-color: #0d1117;
   color: #f0f6fc;
   min-height: 100vh;
 }
 
+/* Main container with border */
 .container-lg {
-  margin: 0 !important;
+  max-width: 1200px !important;
+  margin: 2rem auto !important;
   padding: 0 !important;
-  max-width: none;
-  width: 100%;
   background: #161b22;
-  border: none;  /* Remove container border */
-  border-radius: 0;  /* Remove border radius */
-  box-shadow: none;  /* Remove shadow */
+  border: 1px solid #30363d !important;
+  border-radius: 8px !important;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2) !important;
 }
 
 .page-header {
   margin: 0 !important;
-  padding: 1rem !important;
+  padding: 1rem 2rem !important;
   background-color: #161b22 !important;
   background-image: none !important;
-  border: none !important;
-  border-radius: 0 !important;
+  border-bottom: 1px solid #30363d !important;
+  border-radius: 8px 8px 0 0 !important;
+  text-align: center;
 }
 
 .project-name {
@@ -44,7 +40,6 @@ body {
   font-size: 3.5rem !important;
   font-weight: 600;
   line-height: 1.2 !important;
-  text-align: center;
 }
 
 .project-tagline {
@@ -53,51 +48,85 @@ body {
   color: #2188ff;
   font-size: 1.8rem !important;
   line-height: 1.2 !important;
-  text-align: center;
 }
 
+/* Navigation with subtle border */
+nav {
+  margin: 0 !important;
+  padding: 0.8rem 2rem !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  background: #161b22 !important;
+  border-bottom: 1px solid #30363d !important;
+  
+  a {
+    margin: 0 !important;
+    padding: 0.5rem !important;
+    color: #2188ff !important;
+    text-decoration: none !important;
+    
+    &:hover {
+      color: #79c0ff !important;
+      background: none !important;
+    }
+  }
+}
+
+/* Main content with proper spacing */
 .main-content {
-  max-width: 1200px;
-  padding: 0 2rem !important;
-  margin: 2rem auto 0 !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  padding: 2rem 3rem !important;
   
   h1 {
-    color: #ffffff;  /* Pure white for main headers */
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    border-bottom: 2px solid #2188ff;  /* GitHub blue */
-    padding-bottom: 0.8rem;
+    color: #ffffff;
+    font-size: 2.2rem !important;
+    margin: 2rem 0 1rem !important;
+    padding-bottom: 0.5rem !important;
+    border-bottom: 1px solid #30363d !important;
   }
   
   h2 {
-    color: #2188ff;  /* GitHub blue */
-    font-size: 1.8rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
+    color: #2188ff;
+    font-size: 1.8rem !important;
+    margin: 2rem 0 1rem !important;
   }
   
   h3 {
-    color: #79c0ff;  /* Lighter blue */
-    font-size: 1.4rem;
-    margin-top: 2rem;
+    color: #79c0ff;
+    font-size: 1.4rem !important;
+    margin: 1.5rem 0 0.8rem !important;
   }
-  
-  h4, h5, h6 {
-    color: #ffffff;
-  }
-  
-  /* Better content padding */
-  font-size: 1.1rem;
-  line-height: 1.8;
   
   p {
-    color: #f0f6fc;  /* Bright, clear text */
-    margin-bottom: 1.2rem;
+    color: #f0f6fc;
+    margin-bottom: 1.2rem !important;
+    line-height: 1.6 !important;
   }
   
-  @media screen and (max-width: 42em) {
-    padding: 2rem;
+  ul, ol {
+    margin: 1rem 0 1.5rem 2rem !important;
+    
+    li {
+      margin-bottom: 0.5rem !important;
+    }
   }
+}
+
+/* Code blocks with borders */
+pre {
+  background: #1f2428 !important;
+  border: 1px solid #30363d !important;
+  border-radius: 6px !important;
+  padding: 1rem !important;
+  margin: 1.5rem 0 !important;
+}
+
+code {
+  background: #1f2428 !important;
+  color: #2188ff !important;
+  padding: 0.2rem 0.4rem !important;
+  border-radius: 3px !important;
 }
 
 a {
@@ -109,22 +138,6 @@ a {
     color: #79c0ff;  /* Lighter blue on hover */
     text-decoration: none;
   }
-}
-
-code {
-  background-color: #1f2428;  /* Slightly lighter than container */
-  color: #2188ff;  /* GitHub blue */
-  padding: 0.2em 0.4em;
-  border-radius: 3px;
-  font-size: 0.9em;
-}
-
-pre {
-  background-color: #1f2428;
-  border: 1px solid #30363d;
-  padding: 1rem;
-  border-radius: 6px;
-  margin: 1.5rem 0;
 }
 
 hr {
@@ -156,40 +169,6 @@ table {
   }
 }
 
-/* Navigation styling */
-nav {
-  margin: 0 !important;
-  padding: 0.5rem 2rem !important;
-  display: flex !important;
-  justify-content: space-around !important;
-  background: #161b22 !important;
-  border: none !important;
-  
-  a {
-    margin: 0 !important;
-    padding: 0.5rem !important;
-    color: #2188ff !important;
-    
-    &:hover {
-      color: #79c0ff !important;
-      background: none !important;
-      transform: none !important;
-    }
-  }
-  
-  @media screen and (max-width: 42em) {
-    padding: 1rem;
-    flex-wrap: wrap;  /* Allow wrapping on small screens */
-    justify-content: center;  /* Center items when wrapped */
-    gap: 1rem;  /* Add space between wrapped items */
-    
-    a {
-      padding: 0.3rem;
-    }
-  }
-}
-
-/* Add subtle border to sections */
 section {
   margin: 3rem 0;
   padding: 2.5rem;
