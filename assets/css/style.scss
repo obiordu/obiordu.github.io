@@ -149,38 +149,37 @@ table {
 nav {
   background-color: #161b22;
   margin: 0;
-  padding: 1.5rem 6rem;  /* Match header padding */
-  text-align: left;  /* Left align like header */
-  border-bottom: 1px solid #30363d;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 1rem 6rem;
+  display: flex;  /* Use flexbox for even spacing */
+  justify-content: space-around;  /* Evenly space items */
+  align-items: center;
+  width: 100%;
+  border: none;
+  box-shadow: none;
   
   a {
-    display: inline-block;
-    margin-right: 2rem;  /* Space between links */
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: all 0.2s ease;
-    color: #2188ff;  /* GitHub blue */
+    color: #2188ff;
     font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    padding: 0.5rem;
+    border: none;
+    background: none;
     
     &:hover {
-      background-color: rgba(33, 136, 255, 0.1);  /* GitHub blue with opacity */
-      transform: translateY(-1px);
-      color: #ffffff;
-    }
-    
-    &:last-child {
-      margin-right: 0;
+      color: #79c0ff;
+      transform: none;
     }
   }
   
   @media screen and (max-width: 42em) {
-    padding: 1rem 2rem;
+    padding: 1rem;
+    flex-wrap: wrap;  /* Allow wrapping on small screens */
+    justify-content: center;  /* Center items when wrapped */
+    gap: 1rem;  /* Add space between wrapped items */
     
     a {
-      margin: 0 0.5rem;
-      padding: 0.4rem 0.8rem;
+      padding: 0.3rem;
     }
   }
 }
