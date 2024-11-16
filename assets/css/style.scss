@@ -5,8 +5,8 @@
 
 /* Reset all default spacing */
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   box-sizing: border-box;
 }
 
@@ -18,8 +18,8 @@ body {
 }
 
 .container-lg {
-  margin: 0;
-  padding: 0;
+  margin: 0 !important;
+  padding: 0 !important;
   max-width: none;
   width: 100%;
   background: #161b22;
@@ -29,36 +29,37 @@ body {
 }
 
 .page-header {
-  background-color: #161b22;
-  background-image: linear-gradient(120deg, #1a2536, #161b22);
-  padding: 1.5rem 2rem;  /* Drastically reduced padding */
-  text-align: center;
-  margin: 0;
-  border: none;
-  border-radius: 0;
+  margin: 0 !important;
+  padding: 1rem !important;
+  background-color: #161b22 !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0 !important;
 }
 
 .project-name {
+  margin: 0 0 0.5rem 0 !important;
+  padding: 0 !important;
   color: #ffffff;
-  font-size: 3.5rem;
+  font-size: 3.5rem !important;
   font-weight: 600;
-  margin: 0 0 0.5rem 0;  /* Reduced bottom margin */
-  line-height: 1.2;  /* Tighter line height */
+  line-height: 1.2 !important;
   text-align: center;
 }
 
 .project-tagline {
+  margin: 0 !important;
+  padding: 0 !important;
   color: #2188ff;
-  font-size: 1.8rem;
-  margin: 0;
-  line-height: 1.2;  /* Tighter line height */
+  font-size: 1.8rem !important;
+  line-height: 1.2 !important;
   text-align: center;
 }
 
 .main-content {
   max-width: 1200px;
-  margin: 2rem auto 0;
-  padding: 0 2rem;
+  padding: 0 2rem !important;
+  margin: 2rem auto 0 !important;
   
   h1 {
     color: #ffffff;  /* Pure white for main headers */
@@ -157,28 +158,22 @@ table {
 
 /* Navigation styling */
 nav {
-  background-color: #161b22;
-  margin: 0;
-  padding: 1rem 6rem;
-  display: flex;  /* Use flexbox for even spacing */
-  justify-content: space-around;  /* Evenly space items */
-  align-items: center;
-  width: 100%;
-  border: none;
-  box-shadow: none;
+  margin: 0 !important;
+  padding: 0.5rem 2rem !important;
+  display: flex !important;
+  justify-content: space-around !important;
+  background: #161b22 !important;
+  border: none !important;
   
   a {
-    color: #2188ff;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.2s ease;
-    padding: 0.5rem;
-    border: none;
-    background: none;
+    margin: 0 !important;
+    padding: 0.5rem !important;
+    color: #2188ff !important;
     
     &:hover {
-      color: #79c0ff;
-      transform: none;
+      color: #79c0ff !important;
+      background: none !important;
+      transform: none !important;
     }
   }
   
