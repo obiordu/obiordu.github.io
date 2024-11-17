@@ -107,22 +107,10 @@ Key Achievements:
 
 ---
 
-
-### Projects
-
-View my [portfolio](/projects) featuring:
-
-- Enterprise Kubernetes Platform
-- Cloud Migration & Containerization
-- Enterprise Monitoring Solutions
-- Custom Kubernetes Operators
-- Automated Cost Optimization
-
----
-
-
 ### Contact {#contact}
 
 - Email: [oordu@obwebdev.net](mailto:oordu@obwebdev.net)
 - LinkedIn: [Ordu Obi](https://www.linkedin.com/in/oscarordu/)
 - GitHub: [obiordu](https://github.com/obiordu) or [obiordu.github.io](https://obiordu.github.io)
+
+---
