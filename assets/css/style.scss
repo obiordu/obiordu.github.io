@@ -59,13 +59,16 @@ nav {
   a {
     color: var(--text-color);
     text-decoration: none;
-    
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.2s;
+
     &:hover {
-      color: var(--link-color);
+      background-color: rgba(255, 255, 255, 0.1);
     }
-    
+
     &.active {
-      color: var(--link-color);
+      background-color: rgba(255, 255, 255, 0.1);
       font-weight: bold;
     }
   }
@@ -73,7 +76,7 @@ nav {
 
 /* Content styles */
 .main-content {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem 3rem;
   
