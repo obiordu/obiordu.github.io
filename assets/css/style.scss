@@ -46,29 +46,30 @@ nav {
 
   ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 600px;
   }
 
   li {
-    margin: 0 1rem;
+    margin: 0;
   }
 
   a {
-    color: var(--text-color);
+    color: var(--link-color);
     text-decoration: none;
     padding: 0.5rem 1rem;
     border-radius: 6px;
     transition: background-color 0.2s;
 
     &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(88, 166, 255, 0.1);
     }
 
     &.active {
-      background-color: rgba(255, 255, 255, 0.1);
+      background-color: rgba(88, 166, 255, 0.1);
       font-weight: bold;
     }
   }
