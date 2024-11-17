@@ -10,6 +10,7 @@
   --link-color: #58a6ff;
   --header-bg: #161b22;
   --border-color: #30363d;
+  --heading-color: #58a6ff;
 }
 
 /* Base styles */
@@ -25,6 +26,15 @@ body {
   background-image: none;
   padding: 2rem;
   text-align: center;
+}
+
+.project-name {
+  color: var(--heading-color);
+}
+
+.project-tagline {
+  color: var(--text-color);
+  opacity: 0.9;
 }
 
 /* Navigation */
@@ -49,16 +59,13 @@ nav {
   a {
     color: var(--text-color);
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 6px;
-    transition: background-color 0.2s;
-
+    
     &:hover {
-      background-color: rgba(255, 255, 255, 0.1);
+      color: var(--link-color);
     }
-
+    
     &.active {
-      background-color: rgba(255, 255, 255, 0.1);
+      color: var(--link-color);
       font-weight: bold;
     }
   }
@@ -66,12 +73,12 @@ nav {
 
 /* Content styles */
 .main-content {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-
+  padding: 2rem 3rem;
+  
   h1, h2, h3, h4, h5, h6 {
-    color: var(--text-color);
+    color: var(--heading-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
   }

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: Engineer | Cloud Infrastructure, Kubernetes & DevOps Expert
+description: Engineer | Kubernetes & DevOps Expert
 ---
 
 ---
