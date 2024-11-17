@@ -1,7 +1,21 @@
 title: Obi Ordu
-description: Engineer | Cloud, Kubernetes & DevOps Expert
+description: Cloud Infrastructure Engineer | Kubernetes & DevOps Expert | Systems Reliability Engineer
+url: "https://obiordu.github.io"
+author: Obi Ordu
+twitter:
+  username: obiordu
+  card: summary
+social:
+  name: Obi Ordu
+  links:
+    - https://www.linkedin.com/in/oscarordu
+    - https://github.com/obiordu
+
 show_downloads: false
 theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Dark theme customization
 github:

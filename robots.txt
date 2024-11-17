@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://obiordu.github.io/sitemap.xml
