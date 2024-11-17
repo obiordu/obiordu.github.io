@@ -28,7 +28,7 @@ Deep dive into building a comprehensive monitoring solution for cloud infrastruc
 
 ---
 
-### How to setup a free blog with markdown and github pages
+### How to Set Up a Free Blog with Markdown and GitHub Pages
 *April 10, 2021*
 
 A guide to creating your own blog using GitHub Pages and Markdown. Learn how to set up your own professional blog using free tools and simple markdown syntax.
@@ -49,9 +49,18 @@ Practical strategies and implementations for reducing cloud costs. Covers resour
 ### GitOps Workflow with ArgoCD and Kubernetes
 *Coming Soon*
 
-Step-by-step guide to implementing GitOps practices using ArgoCD. Learn about continuous deployment, configuration management, and application synchronization.
+A detailed guide on implementing GitOps workflows using ArgoCD and Kubernetes. Learn about continuous deployment, configuration management, and automated rollbacks.
 
 [Read More](/gitops-workflow-with-argocd) *(Coming Soon)*
+
+---
+
+### Kubernetes Security Best Practices
+*Coming Soon*
+
+Essential security practices for Kubernetes clusters. Covers pod security policies, network policies, secrets management, and security monitoring.
+
+[Read More](/kubernetes-security-best-practices) *(Coming Soon)*
 
 ---
 
