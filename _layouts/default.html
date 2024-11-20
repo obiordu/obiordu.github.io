@@ -17,7 +17,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="/assets/css/custom.css">
     
     {% seo %}
     
@@ -31,25 +30,14 @@
   </head>
 
   <body>
-    <!-- Theme toggle button -->
-    <button id="theme-toggle" onclick="toggleDarkMode()">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="12" cy="12" r="5"/>
-        <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
-      </svg>
-    </button>
-
-    <!-- Back to top button -->
-    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
-
-    <header class="page-header animate-fade-in">
+    <header class="page-header">
       <div class="header-content">
         <h1 class="project-name">Obi Ordu</h1>
         <h2 class="project-tagline">{{ site.description }}</h2>
       </div>
     </header>
 
-    <nav class="animate-fade-in">
+    <nav>
       <ul>
         <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
         <li><a href="/blog" {% if page.url == "/blog" %}class="active"{% endif %}>Blog</a></li>
@@ -57,7 +45,7 @@
       </ul>
     </nav>
 
-    <main id="content" class="main-content animate-fade-in" role="main">
+    <main id="content" class="main-content" role="main">
       {{ content }}
 
       <footer class="site-footer">
@@ -65,9 +53,6 @@
       </footer>
     </main>
 
-    <!-- Add JavaScript -->
-    <script src="/assets/js/main.js"></script>
-    
     {% if site.google_analytics %}
       <script async src="https://www.google-analytics.com/analytics.js"></script>
       <script>
