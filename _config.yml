@@ -17,6 +17,18 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# Cache settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      cache_control: no-cache
+
+# Build settings
+exclude: [README.md, Gemfile, Gemfile.lock]
+keep_files: [.git, CNAME]
+incremental: false
+
 # Dark theme customization
 github:
   is_project_page: false
