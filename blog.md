@@ -10,6 +10,10 @@ description: Cloud Infrastructure & DevOps Blog
 
 ## Latest Posts
 
+### About This Blog
+This blog goes straight to the point about difficult-to-understand configurations and setups in cloud infrastructure, DevOps practices, and system architecture. Each post includes practical examples, code snippets, and real-world scenarios from enterprise implementations.
+> **NOTE:** Always read the product documentation.
+
 ### Implementing Zero-Trust Security in Kubernetes Clusters
 *Coming Soon*
 
