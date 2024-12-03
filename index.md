@@ -64,6 +64,10 @@ Systems and Software Reliability Engineer with 8+ years of cloud infrastructure 
 
 ### Professional Certifications
 
+- **Consul Certified Associate**
+  - Expertise in HashiCorp Consul service mesh and service discovery,
+  - Focus: Service networking, security, and dynamic infrastructure.
+
 - **Certified Kubernetes Security Specialist (CKS)**
   - Advanced security-focused certification for Kubernetes professionals,
   - Focus: Container security, cluster hardening, system hardening.
